@@ -36,7 +36,7 @@ create table tb_product_category(
 )ENGINE = INNODB auto_increment = 1 DEFAULT CHARSET = utf8;
 ```
 
-### SpringMVC命名空间 ##
+### SpringMVC命名空间 ###
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -65,3 +65,8 @@ create table tb_product_category(
 		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd ">
 ```
+
+### ssm重点知识 ###
+1. DispatcherServlet  
+2. IOC和AOP  
+3. MyBaits-ORM
